@@ -44,15 +44,6 @@ footer p {
     width: 100%;
     height: auto;
 }
-
-.receita {
-    width: 50%;
-}
-
-.receita2 {
-    width: 50%;
-}
-
 .nomesite {
     font-size: 35px;
     color: #333;
@@ -62,7 +53,9 @@ footer p {
 
 .navigation {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 10px;
 }
 
 .navigation a {
@@ -71,7 +64,6 @@ footer p {
     padding: 5px 10px;
     border-radius: 5px;
 }
-
 .menu a {
     color: #333;
     margin: 0 10px;
@@ -100,7 +92,7 @@ footer p {
     padding: 8px 20px;
     margin-top: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
@@ -119,4 +111,26 @@ footer p {
 .login-register {
     text-align: right;
     margin-top: -45px;
+}
+
+.mural{
+    background-color: #ee7300;
+    color: black;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 0px;
+    width: 50px;
+    height: 25px;
+}
+.receita {
+    background-color: #ee7300;
+    color: black;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 0px;
+    width: 50px;
+    height: 25px;
+}
+#Logo{
+    width: 150px;
 }
